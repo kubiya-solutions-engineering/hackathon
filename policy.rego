@@ -1,3 +1,5 @@
+package kubiya.tool_manager
+
 # Default deny all access
 default allow = false
 
