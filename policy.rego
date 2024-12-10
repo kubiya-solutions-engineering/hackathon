@@ -12,7 +12,9 @@ admin_only_functions = {
 
 # List of restricted tools (nobody can run these)
 restricted_tools = {
-    "list_namespaces"
+    "list_namespaces",
+    "deployment_management",
+    "service_management"
 }
 
 # Allow Administrators to run admin_only functions
