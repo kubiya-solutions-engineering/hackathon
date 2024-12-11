@@ -12,15 +12,9 @@ admin_only_functions = {
 
 # List of restricted tools (nobody can run these)
 restricted_tools = {
-    "list_namespaces",
     "deployment_management",
     "service_management",
-    "find_resource",
     "change_replicas",
-    "get_resource_events",
-    "get_resource_logs",
-    "node_status",
-    "find_suspicious_errors",
     "network_policy_analyzer",
     "persistent_volume_usage",
     "ingress_analyzer",
@@ -30,19 +24,11 @@ restricted_tools = {
     "check_replicas",
     "scale_deployment",
     "deployment_rollout",
-    "deployment_describe",
     "resource_usage",
-    "cluster_health",
     "kubectl",
     "pod_management",
-    "check_pod_restarts",
     "pv_management",
-    "pv_describe",
-    "pv_list",
     "pvc_management",
-    "pvc_describe",
-    "pvc_list",
-    "service_describe"
 }
 
 # List of Slack tools
